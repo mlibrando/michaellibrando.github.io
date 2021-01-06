@@ -322,6 +322,10 @@ textarea {
     width: auto;
   }
 
+  .con-hero .col2 img {
+  width: 20em;
+}
+
 /* About Me */
 
   .about-me .container {
@@ -337,6 +341,10 @@ textarea {
   .services-con {
     flex-direction: column;
   }  
+
+  .services-con img {
+    width: 20em;
+  }
 
   .services-con .col1, .services-con .col3 {
     width: auto;
