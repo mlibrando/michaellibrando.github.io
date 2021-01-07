@@ -123,6 +123,8 @@ textarea {
 }
 
 .about-me .container br {
+  content: " ";
+  display: block;
   margin-bottom: 1em;
 }
 
@@ -340,9 +342,6 @@ textarea {
     padding-left: 0;
   }
 
-  .about-me .container br {
-  margin-bottom: 1.5em;
-}
 
 /* Services */
 
