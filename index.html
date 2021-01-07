@@ -114,19 +114,19 @@
 				<div class="col1">
 					<h3>Contact Me</h3>
 					<p>Need something done? I'm all ears.</p>	
-					<form>
+					<form action="POST" data-netlify="true">
 						  <div class="row">
 						    <div class="col">
-						      <input type="text" class="form-control" required placeholder="Full Name">
+						      <input type="text" name="name" class="form-control" required placeholder="Full Name">
 						    </div>
 						    <div class="col">
-						      <input type="email" class="form-control" required placeholder="Email Address">
+						      <input type="email" name="email" class="form-control" required placeholder="Email Address">
 						    </div>
 						  </div>
 						  <br>
 						 <div class="row"> 
 						 	<div class="col">
-						    <textarea class="form-control" required rows="4" placeholder="Enter your message here. Upon hitting the 'send message' button below, it'll send it to my email at michaelpuen@gmail.com! Isn't that cool?"></textarea><br>
+						    <textarea class="form-control" name="message" required rows="4" placeholder="Enter your message here. Upon hitting the 'send message' button below, it'll send it to my email at michaelpuen@gmail.com! Isn't that cool?"></textarea><br>
 							</div>
 						</div>	
 
