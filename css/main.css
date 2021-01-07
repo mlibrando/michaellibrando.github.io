@@ -179,6 +179,10 @@ textarea {
   width: 40%;
 }
 
+#call-me {
+  margin-top: 0.5em;
+}
+
 .contact-con textarea {
   resize: none;
 }
@@ -335,6 +339,10 @@ textarea {
   .about-me .container .col2 {
     padding-left: 0;
   }
+
+  .about-me .container br {
+  margin-bottom: 1.5em;
+}
 
 /* Services */
 
