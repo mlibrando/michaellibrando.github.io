@@ -379,6 +379,7 @@ textarea {
 #submit-button {
   margin: 0 auto;
   display: flex;
+  margin-bottom: 1em;
 }
 
 
