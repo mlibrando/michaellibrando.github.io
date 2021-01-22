@@ -450,7 +450,6 @@ display: block;
 @media screen and (max-width: 575px) {
   .text {
   position: absolute;
-  top: 25%;
   text-align: center;
   padding-left: 10em;
   padding-right: 10em;
