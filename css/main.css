@@ -150,7 +150,7 @@ textarea {
 
 .services-con .col2 img {
   border-radius: 50%;
-  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
 }
 
 .services-con .col1 {
@@ -163,6 +163,55 @@ textarea {
   width: 20%;
 }
 
+/* My Works */
+
+.myWorks {
+  margin-top: 1.5em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#work1, #work2 {
+  width: 15em;
+  border: solid 1px #000000;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay:hover {
+  opacity: 0.75;
+  background: #fdfdfd;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  padding-left: 10em;
+  padding-right: 10em;
+  color: #000;
+}
+
+.text a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+label { 
+display: block;
+ }
 
 /* Contact Me */
 
@@ -359,6 +408,19 @@ textarea {
     text-align: center;
   }
 
+/* My Works */
+
+.text {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  padding-left: 4em;
+  padding-right: 4em;
+  color: #000;
+}
+
+
+
 /* Contact */
 
 #call-me, #call-me-p {
@@ -383,9 +445,17 @@ textarea {
   margin-bottom: 1em;
 }
 
+}
 
-
-
+@media screen and (max-width: 575px) {
+  .text {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  padding-left: 10em;
+  padding-right: 10em;
+  color: #000;
+}
 }
 
 @media print,
