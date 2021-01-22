@@ -408,6 +408,10 @@ display: block;
     text-align: center;
   }
 
+  .services-con .col2 {
+    margin-bottom: 1em;
+  }
+
 /* My Works */
 
 .text {
@@ -448,11 +452,11 @@ display: block;
 }
 
 @media screen and (max-width: 575px) {
+
+
   .text {
   position: absolute;
   text-align: center;
-  padding-left: 10em;
-  padding-right: 10em;
   color: #000;
 }
 }
