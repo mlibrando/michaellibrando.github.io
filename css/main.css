@@ -455,6 +455,8 @@ display: block;
 
 
   .text {
+  padding-left: 5em;
+  padding-right: 5em;
   position: absolute;
   text-align: center;
   color: #000;
