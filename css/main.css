@@ -198,8 +198,8 @@ textarea {
   position: absolute;
   top: 50%;
   text-align: center;
-  padding-left: 10.5em;
-  padding-right: 10.5em;
+  /* padding-left: 10.5em;
+  padding-right: 10.5em; */
   color: #000;
 }
 
